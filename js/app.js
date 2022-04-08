@@ -27,7 +27,7 @@ self.addEventListener('activate', event => {
 
 
 var url = window.location.href; //obtenemos todo el url
-var pwaLocation = 'https://elenaprieto27.github.io/sw.js'; //path donde se encuentra el sw en GitHub
+var pwaLocation = 'https://yazminluna210.github.io/sw.js'; //path donde se encuentra el sw en GitHub
 
 if(navigator.serviceWorker){
     if(url.includes('localhost')){
